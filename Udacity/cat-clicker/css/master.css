@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: 2px red solid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  height: 50vh;
+  margin: 0 auto;
+
+}
+#cats {
+  border: 2px blue solid;
+  width: inherit;
+  height: 50%;
+}

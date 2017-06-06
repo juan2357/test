@@ -1,0 +1,8 @@
+<h1>Animal#index</h1>
+<p>Find me in app/views/animal/index.html.erb</p>
+
+<% form_for @animal do |f| %>
+  <%= f.text_field :animal %>
+  <%= f.select :animalType, [['Cat','cat'],['Dog','dog'],['Bird','bird']] %>
+  <%= f.submit %>
+<% end %>

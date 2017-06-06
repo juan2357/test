@@ -1,0 +1,34 @@
+* {
+   /*outline: 1px solid red !important;*/
+}
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  width: 80%;
+  margin: auto;
+}
+.app {
+  display: flex;
+}
+.title {
+  height: 77px;
+  background-color: #33bebe;
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 45px;
+  padding: 25px 0px 10px 10px;
+}
+.image {
+  width: 300px;
+}
+img {
+  width: inherit;;
+}
+.description {
+  color: #7c8b88;
+  padding-left: 12px;
+  font-size: large;
+}
